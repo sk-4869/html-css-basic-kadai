@@ -53,6 +53,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #87ceeb;
+	position: relative;
 }
 
 #bottom > div {
@@ -62,9 +63,12 @@
 }
 
 #bottom-child02 {
-	margin-left: 200px
+	position: absolute;
+	left: 200px
 }
 
 #bottom-child03 {
-	margin-left: 400px
+	position: absolute;
+	top: 200px;
+	left: 400px
 }
